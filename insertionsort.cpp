@@ -6,5 +6,17 @@ int n;
 
 void input()
 {
-
+    while (true)
+    {
+        cout << "Masukan jumlah data pada array :";
+        cin >> n;
+        if (n <= 20)
+        {
+            break;
+        }
+        else
+        {
+            
+        }
+    }
 }
