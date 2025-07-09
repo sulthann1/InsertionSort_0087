@@ -52,4 +52,19 @@ for (i = 1; i<= n - 1; 1++)
 }
 }
 
-void display
+void display()
+{
+    cout << "endl";
+    cout << "========================" <<endl;
+    cout << "Total pass = " << n-1 <<endl;
+    cout << "========================" <<endl;
+    cout << "Element array yang telah tersusun" <<endl;
+    cout << "========================" <<endl;
+
+    for (int j = 0; j < n; j++)
+    {
+        cout << arr [j] <<endl;
+    }
+}
+
+int main
